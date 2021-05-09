@@ -79,7 +79,7 @@ const Main = () => (
     <div className={"flex justify-center"}>
       <button
         className={
-          "text-blue bg-gray py-19 px-142 rounded-14 text-md font-medium mt-80 lg:uppercase lg:px-75"
+          "text-blue bg-gray py-19 px-142 rounded-14 text-md font-medium mt-80 lg:uppercase lg:px-75 mb-20 lg:mb-0"
         }
       >
         more
