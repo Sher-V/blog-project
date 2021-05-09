@@ -3,11 +3,6 @@ import { Card } from "../../components/main/card";
 
 const posts = [
   {
-    imgSrc: "/images/visa-1.png",
-    title: "VISA",
-    description: "Australian Passport Visa Free countries: the ultimate list",
-  },
-  {
     imgSrc: "/images/how-to.png",
     title: "HOW TO",
     description: "Best onward ticket service: How to choose the right one?",
@@ -16,6 +11,11 @@ const posts = [
     imgSrc: "/images/what-is.png",
     title: "WHAT IS",
     description: "Fly Onward: what are the alternatives?",
+  },
+  {
+    imgSrc: "/images/visa-1.png",
+    title: "VISA",
+    description: "Australian Passport Visa Free countries: the ultimate list",
   },
 ];
 
@@ -83,7 +83,7 @@ const Post = () => (
         Fly Onward: what are the alternatives?
       </div>
       <img
-        className={"mt-60 w-auto max-w-374 mx-auto lg:max-w-full"}
+        className={"mt-60 w-full max-w-374 mx-auto lg:max-w-full"}
         src={"/images/how-to-big.png"}
       />
       <div className={"mx-auto max-w-327 lg:max-w-full"}>
