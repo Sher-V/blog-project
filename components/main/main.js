@@ -50,7 +50,9 @@ const Main = () => (
       </button>
     </div>
     <div
-      className={"flex flex-wrap mt-60 justify-between flex-col lg:flex-row items-stretch"}
+      className={
+        "flex flex-wrap mt-60 justify-between flex-col lg:flex-row items-stretch"
+      }
     >
       {posts.map((post, index) => (
         <Card key={index} {...post} />
@@ -62,7 +64,7 @@ const Main = () => (
       >
         <div
           className={
-            "uppercase text-white text-2xl font-bold max-w-240 lg:max-w-140 text-center lg:text-left"
+            "uppercase text-white text-3xl font-bold max-w-240 lg:max-w-140 text-center lg:text-left"
           }
         >
           Travel with ease

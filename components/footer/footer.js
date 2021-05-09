@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { UiLink } from "..";
 
 const Footer = () => (
   <div className={"hidden lg:block bg-blue mt-140 pr-113 pb-80"}>
@@ -28,46 +28,30 @@ const Footer = () => (
       <div className={"flex"}>
         <ul>
           <li>
-            <Link href="/">
-              <a className={"block text-white text-base"}>Blog</a>
-            </Link>
+            <UiLink href={"/"}>Blog</UiLink>
           </li>
           <li className={"mt-30"}>
-            <Link href="/">
-              <a className={"block text-white text-base"}>About US</a>
-            </Link>
+            <UiLink href={"/"}>About US</UiLink>
           </li>
           <li className={"mt-30"}>
-            <Link href="/">
-              <a className={"block text-white text-base"}>Contact</a>
-            </Link>
+            <UiLink href={"/"}>Contact</UiLink>
           </li>
           <li className={"mt-30"}>
-            <Link href="/">
-              <a className={"block text-white text-base"}>Support</a>
-            </Link>
+            <UiLink href={"/"}>Support</UiLink>
           </li>
         </ul>
         <ul className={"ml-176"}>
           <li>
-            <Link href="/">
-              <a className={"block text-white text-base"}>FAQ</a>
-            </Link>
+            <UiLink href={"/"}>FAQ</UiLink>
           </li>
           <li className={"mt-30"}>
-            <Link href="/">
-              <a className={"block text-white text-base"}>Terms&Conditions</a>
-            </Link>
+            <UiLink href={"/"}>Terms&Conditions</UiLink>
           </li>
           <li className={"mt-30"}>
-            <Link href="/">
-              <a className={"block text-white text-base"}>Privacy Policy</a>
-            </Link>
+            <UiLink href={"/"}>Privacy Policy</UiLink>
           </li>
           <li className={"mt-30"}>
-            <Link href="/">
-              <a className={"block text-white text-base"}>Affiliate</a>
-            </Link>
+            <UiLink href={"/"}>Affiliate</UiLink>
           </li>
         </ul>
       </div>

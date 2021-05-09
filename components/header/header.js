@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { UiLink } from "../ui-link";
 
 const blueIcon = (
   <svg
@@ -61,7 +61,9 @@ export const whiteIcon = (
 );
 
 const Header = () => (
-  <div className={"flex justify-between items-center py-25 w-327 lg:w-924 mx-auto"}>
+  <div
+    className={"flex justify-between items-center py-25 max-w-327 lg:max-w-924 mx-auto"}
+  >
     <div className={"flex items-center"}>
       <div
         className={
@@ -76,15 +78,15 @@ const Header = () => (
       </span>
     </div>
     <div className={"hidden lg:block"}>
-      <Link href="/">
-        <a className={"inline-block text-blue text-base"}>FAQ</a>
-      </Link>
-      <Link href="/">
-        <a className={"inline-block ml-30 text-blue text-base"}>About US</a>
-      </Link>
-      <Link href="/">
-        <a className={"inline-block ml-30 text-blue text-base"}>Contact</a>
-      </Link>
+      <UiLink href={"/"} className={"inline-block ml-30 text-blue text-base"}>
+        FAQ
+      </UiLink>
+      <UiLink href={"/"} className={"inline-block ml-30 text-blue text-base"}>
+        About US
+      </UiLink>
+      <UiLink href={"/"} className={"inline-block ml-30 text-blue text-base"}>
+        Contact
+      </UiLink>
     </div>
     <div
       className={
