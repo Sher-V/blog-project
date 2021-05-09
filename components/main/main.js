@@ -59,7 +59,7 @@ const Main = () => (
       ))}
       <div
         className={
-          "mt-60 bg-top-30 bg-lightgreen bg-ticket h-373 bg-no-repeat flex pt-180 flex-col lg:items-start lg:pt-0 lg:pl-50 lg:w-495 lg:h-auto lg:bg-right-top-40 lg:justify-center items-center rounded-20"
+          "mt-60 bg-top-30 bg-green-dark bg-ticket h-373 bg-no-repeat flex pt-180 flex-col lg:items-start lg:pt-0 lg:pl-50 lg:w-495 lg:h-auto lg:bg-right-top-40 lg:justify-center items-center rounded-20"
         }
       >
         <div
@@ -71,7 +71,7 @@ const Main = () => (
         </div>
         <button
           className={
-            "h-54 uppercase bg-yellowgreen font-bold text-base text-blue py-17 px-40 w-287 rounded-14 mt-30 lg:w-124"
+            "h-54 uppercase bg-green-salad font-bold text-base text-blue py-17 px-40 w-287 rounded-14 mt-30 lg:w-124"
           }
         >
           Book

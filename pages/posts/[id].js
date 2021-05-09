@@ -107,7 +107,7 @@ const Post = () => (
             <li
               className={"flex items-center text-blue text-description mt-20"}
             >
-              <span className={"inline-block w-6 h-6 bg-lgreen rounded-full"} />
+              <span className={"inline-block w-6 h-6 bg-gray-dark rounded-full"} />
               <span className={"inline-block ml-20"}>
                 $9,99 for a 24 hours valid ticket
               </span>
@@ -115,7 +115,7 @@ const Post = () => (
             <li
               className={"flex items-center text-blue text-description mt-20"}
             >
-              <span className={"inline-block w-6 h-6 bg-lgreen rounded-full"} />
+              <span className={"inline-block w-6 h-6 bg-gray-dark rounded-full"} />
               <span className={"inline-block ml-20"}>
                 $16,99 for a 48 hours valid ticket
               </span>
@@ -130,7 +130,7 @@ const Post = () => (
             <li
               className={"flex items-center text-blue text-description mt-20"}
             >
-              <span className={"inline-block w-6 h-6 bg-lgreen rounded-full"} />
+              <span className={"inline-block w-6 h-6 bg-gray-dark rounded-full"} />
               <span className={"inline-block ml-20"}>
                 Choose you destination for $10
               </span>
@@ -138,7 +138,7 @@ const Post = () => (
             <li
               className={"flex items-center text-blue text-description mt-20"}
             >
-              <span className={"inline-block w-6 h-6 bg-lgreen rounded-full"} />
+              <span className={"inline-block w-6 h-6 bg-gray-dark rounded-full"} />
               <span className={"inline-block ml-20"}>
                 Receive your ticket later for $1,99
               </span>
@@ -160,14 +160,14 @@ const Post = () => (
         <div className={"mt-60 text-blue text-description text-left"}>
           <a
             href={"OnwardTicket.com"}
-            className={"inline-block text-2lg py-2 px-10 rounded-10 bg-lgreen"}
+            className={"inline-block text-2lg py-2 px-10 rounded-10 bg-gray-dark"}
           >
             OnwardTicket.com
           </a>{" "}
           offers the same service than{" "}
           <a
             href={"Flyonward.com"}
-            className={"inline-block text-2lg py-2 px-10 rounded-10 bg-lgreen"}
+            className={"inline-block text-2lg py-2 px-10 rounded-10 bg-gray-dark"}
           >
             Flyonward.com
           </a>{" "}
@@ -179,7 +179,7 @@ const Post = () => (
 
         <button
           className={
-            "uppercase bg-yellowgreen py-15 w-full mt-60 text-blue text-base font-bold rounded-14 flex justify-center items-center"
+            "uppercase bg-green-salad py-15 w-full mt-60 text-blue text-base font-bold rounded-14 flex justify-center items-center"
           }
         >
           <svg

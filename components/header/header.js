@@ -67,7 +67,7 @@ const Header = () => (
     <div className={"flex items-center"}>
       <div
         className={
-          "lg:bg-green lg:flex lg:justify-center lg:items-center lg:w-50 lg:h-50 lg:rounded-10"
+          "lg:bg-green-darkest lg:flex lg:justify-center lg:items-center lg:w-50 lg:h-50 lg:rounded-10"
         }
       >
         {blueIcon}
