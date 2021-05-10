@@ -51,7 +51,7 @@ const Main = () => (
     </div>
     <div
       className={
-        "flex flex-wrap mt-60 justify-between flex-col lg:flex-row items-stretch"
+        "flex flex-wrap justify-between flex-col lg:flex-row items-stretch gap-y-40 lg:gap-y-60 mt-60"
       }
     >
       {posts.map((post, index) => (
@@ -59,7 +59,7 @@ const Main = () => (
       ))}
       <div
         className={
-          "mt-60 px-20 bg-top-30 bg-green-dark bg-ticket h-373 bg-no-repeat flex pt-180 flex-col max-w-100 lg:max-w-100 lg:items-start lg:pt-0 lg:pl-50 lg:w-495 lg:h-auto lg:bg-right-top-40 lg:justify-center lg:px-0 items-center rounded-20"
+          "px-20 bg-top-30 bg-green-dark bg-ticket h-373 bg-no-repeat flex pt-180 flex-col max-w-100 lg:max-w-100 lg:items-start lg:pt-0 lg:pl-50 lg:w-495 lg:h-auto lg:bg-right-top-40 lg:justify-center lg:px-0 items-center rounded-20"
         }
       >
         <div

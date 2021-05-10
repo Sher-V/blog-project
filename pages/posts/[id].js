@@ -312,7 +312,7 @@ const Post = () => (
 
         <div
           className={
-            "flex flex-wrap justify-between flex-col lg:flex-row items-stretch"
+            "flex flex-wrap justify-between flex-col lg:flex-row items-stretch mt-40 gap-y-40"
           }
         >
           {posts.map((post, index) => (
