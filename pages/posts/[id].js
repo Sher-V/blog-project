@@ -24,46 +24,59 @@ const Post = () => (
     <Header />
 
     <div className={"mx-auto lg:max-w-760 relative"}>
-      <div className={'absolute top-0 -left-82 hidden lg:block'}>
-        <button className={"bg-gray w-54 h-54 text-blue rounded-10 flex justify-center items-center"}>
+      <div className={"absolute top-0 -left-82 hidden lg:block"}>
+        <button
+          className={
+            "bg-gray w-54 h-54 text-blue rounded-10 flex justify-center items-center"
+          }
+        >
           <svg
-              width="10"
-              height="20"
-              viewBox="0 0 10 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+            width="10"
+            height="20"
+            viewBox="0 0 10 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-                d="M2.5 6.66667H0V10H2.5V20H6.66667V10H9.70167L10 6.66667H6.66667V5.2775C6.66667 4.48167 6.82667 4.16667 7.59583 4.16667H10V0H6.82667C3.83 0 2.5 1.31917 2.5 3.84583V6.66667Z"
-                fill="#1F368D"
+              d="M2.5 6.66667H0V10H2.5V20H6.66667V10H9.70167L10 6.66667H6.66667V5.2775C6.66667 4.48167 6.82667 4.16667 7.59583 4.16667H10V0H6.82667C3.83 0 2.5 1.31917 2.5 3.84583V6.66667Z"
+              fill="#1F368D"
             />
           </svg>
         </button>
         <button
-            className={
-              "bg-gray w-54 h-54 rounded-10 flex justify-center items-center mt-10"
-            }
+          className={
+            "bg-gray w-54 h-54 rounded-10 flex justify-center items-center mt-10"
+          }
         >
           <svg
-              width="20"
-              height="17"
-              viewBox="0 0 20 17"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="17"
+            viewBox="0 0 20 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-                d="M20 1.92417C19.2642 2.25083 18.4733 2.47083 17.6433 2.57C18.4908 2.0625 19.1417 1.25833 19.4475 0.3C18.655 0.77 17.7767 1.11167 16.8417 1.29583C16.0942 0.498333 15.0267 0 13.8467 0C11.1975 0 9.25083 2.47167 9.84917 5.0375C6.44 4.86667 3.41667 3.23333 1.3925 0.750833C0.3175 2.595 0.835 5.0075 2.66167 6.22917C1.99 6.2075 1.35667 6.02333 0.804167 5.71583C0.759167 7.61667 2.12167 9.395 4.095 9.79083C3.5175 9.9475 2.885 9.98417 2.24167 9.86083C2.76333 11.4908 4.27833 12.6767 6.075 12.71C4.35 14.0625 2.17667 14.6667 0 14.41C1.81583 15.5742 3.97333 16.2533 6.29 16.2533C13.9083 16.2533 18.2125 9.81917 17.9525 4.04833C18.7542 3.46917 19.45 2.74667 20 1.92417Z"
-                fill="#1F368D"
+              d="M20 1.92417C19.2642 2.25083 18.4733 2.47083 17.6433 2.57C18.4908 2.0625 19.1417 1.25833 19.4475 0.3C18.655 0.77 17.7767 1.11167 16.8417 1.29583C16.0942 0.498333 15.0267 0 13.8467 0C11.1975 0 9.25083 2.47167 9.84917 5.0375C6.44 4.86667 3.41667 3.23333 1.3925 0.750833C0.3175 2.595 0.835 5.0075 2.66167 6.22917C1.99 6.2075 1.35667 6.02333 0.804167 5.71583C0.759167 7.61667 2.12167 9.395 4.095 9.79083C3.5175 9.9475 2.885 9.98417 2.24167 9.86083C2.76333 11.4908 4.27833 12.6767 6.075 12.71C4.35 14.0625 2.17667 14.6667 0 14.41C1.81583 15.5742 3.97333 16.2533 6.29 16.2533C13.9083 16.2533 18.2125 9.81917 17.9525 4.04833C18.7542 3.46917 19.45 2.74667 20 1.92417Z"
+              fill="#1F368D"
             />
           </svg>
         </button>
-        <button className={"bg-gray w-full w-54 h-54 rounded-10 mt-10 flex justify-center items-center"}>
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="2" cy="10" r="2" fill="#CCD5F5"/>
-            <circle cx="10" cy="10" r="2" fill="#CCD5F5"/>
-            <circle cx="18" cy="10" r="2" fill="#CCD5F5"/>
+        <button
+          className={
+            "bg-gray w-full w-54 h-54 rounded-10 mt-10 flex justify-center items-center"
+          }
+        >
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="2" cy="10" r="2" fill="#CCD5F5" />
+            <circle cx="10" cy="10" r="2" fill="#CCD5F5" />
+            <circle cx="18" cy="10" r="2" fill="#CCD5F5" />
           </svg>
-
         </button>
       </div>
       <div className={"text-center"}>
@@ -86,7 +99,7 @@ const Post = () => (
         className={"mt-60 w-full max-w-374 mx-auto lg:max-w-full"}
         src={"/images/how-to-big.png"}
       />
-      <div className={"mx-auto max-w-327 lg:max-w-full"}>
+      <div className={"mx-auto px-24 max-w-327 lg:max-w-full lg:px-0"}>
         <div className={"mt-60 text-blue text-description"}>
           For long-time travelers that needed flight reservation for their visa
           application , there was a very well-known service that used to operate
@@ -107,7 +120,9 @@ const Post = () => (
             <li
               className={"flex items-center text-blue text-description mt-20"}
             >
-              <span className={"inline-block w-6 h-6 bg-gray-dark rounded-full"} />
+              <span
+                className={"inline-block w-6 h-6 bg-gray-dark rounded-full"}
+              />
               <span className={"inline-block ml-20"}>
                 $9,99 for a 24 hours valid ticket
               </span>
@@ -115,7 +130,9 @@ const Post = () => (
             <li
               className={"flex items-center text-blue text-description mt-20"}
             >
-              <span className={"inline-block w-6 h-6 bg-gray-dark rounded-full"} />
+              <span
+                className={"inline-block w-6 h-6 bg-gray-dark rounded-full"}
+              />
               <span className={"inline-block ml-20"}>
                 $16,99 for a 48 hours valid ticket
               </span>
@@ -130,7 +147,9 @@ const Post = () => (
             <li
               className={"flex items-center text-blue text-description mt-20"}
             >
-              <span className={"inline-block w-6 h-6 bg-gray-dark rounded-full"} />
+              <span
+                className={"inline-block w-6 h-6 bg-gray-dark rounded-full"}
+              />
               <span className={"inline-block ml-20"}>
                 Choose you destination for $10
               </span>
@@ -138,7 +157,9 @@ const Post = () => (
             <li
               className={"flex items-center text-blue text-description mt-20"}
             >
-              <span className={"inline-block w-6 h-6 bg-gray-dark rounded-full"} />
+              <span
+                className={"inline-block w-6 h-6 bg-gray-dark rounded-full"}
+              />
               <span className={"inline-block ml-20"}>
                 Receive your ticket later for $1,99
               </span>
@@ -160,14 +181,18 @@ const Post = () => (
         <div className={"mt-60 text-blue text-description text-left"}>
           <a
             href={"OnwardTicket.com"}
-            className={"inline-block text-2lg py-2 px-10 rounded-10 bg-gray-dark"}
+            className={
+              "inline-block text-2lg py-2 px-10 rounded-10 bg-gray-dark"
+            }
           >
             OnwardTicket.com
           </a>{" "}
           offers the same service than{" "}
           <a
             href={"Flyonward.com"}
-            className={"inline-block text-2lg py-2 px-10 rounded-10 bg-gray-dark"}
+            className={
+              "inline-block text-2lg py-2 px-10 rounded-10 bg-gray-dark"
+            }
           >
             Flyonward.com
           </a>{" "}
@@ -222,8 +247,12 @@ const Post = () => (
           <span className={"inline-block ml-20"}>book ticket</span>
         </button>
 
-        <div className={"flex justify-between lg:hidden mt-20"}>
-          <button className={"bg-gray w-60 h-60 text-blue rounded-10 flex justify-center items-center"}>
+        <div className={"flex space-x-10 lg:hidden mt-20"}>
+          <button
+            className={
+              "bg-gray w-60 h-60 text-blue rounded-10 flex justify-center items-center"
+            }
+          >
             <svg
               width="10"
               height="20"
@@ -255,11 +284,21 @@ const Post = () => (
               />
             </svg>
           </button>
-          <button className={"bg-gray w-full max-w-188 h-60 rounded-10 flex justify-center items-center"}>
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="2" cy="10" r="2" fill="#CCD5F5"/>
-              <circle cx="10" cy="10" r="2" fill="#CCD5F5"/>
-              <circle cx="18" cy="10" r="2" fill="#CCD5F5"/>
+          <button
+            className={
+              "bg-gray flex-grow h-60 rounded-10 flex justify-center items-center"
+            }
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="2" cy="10" r="2" fill="#CCD5F5" />
+              <circle cx="10" cy="10" r="2" fill="#CCD5F5" />
+              <circle cx="18" cy="10" r="2" fill="#CCD5F5" />
             </svg>
           </button>
         </div>
@@ -280,12 +319,10 @@ const Post = () => (
             <Card key={index} {...post} />
           ))}
         </div>
-      </div>
 
-      <div className={"lg:hidden flex justify-center"}>
         <button
           className={
-            "text-blue bg-gray py-19 px-142 rounded-14 text-md font-medium mt-80 lg:uppercase lg:px-75 mb-20 lg:mb-0"
+            "text-blue bg-gray py-19 rounded-14 text-md font-medium mt-80 w-full lg:width-auto lg:uppercase lg:px-75 mb-20 lg:mb-0"
           }
         >
           more

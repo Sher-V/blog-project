@@ -24,7 +24,7 @@ const posts = [
 ];
 
 const Main = () => (
-  <main className={"mx-auto w-327 lg:w-760"}>
+  <main className={"mx-auto px-24 w-327 lg:w-760 lg:px-0"}>
     <div className={"text-blue text-xl"}>BLOG</div>
     <div className={"mt-20"}>
       <button
@@ -81,7 +81,7 @@ const Main = () => (
     <div className={"flex justify-center"}>
       <button
         className={
-          "text-blue bg-gray py-19 px-142 rounded-14 text-md font-medium mt-80 lg:uppercase lg:px-75 mb-20 lg:mb-0"
+          "text-blue bg-gray py-19 w-full rounded-14 text-md font-medium mt-80 lg:uppercase lg:px-75 mb-20 lg:mb-0 lg:w-auto"
         }
       >
         more
