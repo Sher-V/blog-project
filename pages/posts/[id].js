@@ -90,7 +90,7 @@ const Post = () => (
       </div>
       <div
         className={
-          "text-blue text-2xl mt-20 font-bold max-w-340 lg:max-w-520 mx-auto text-center"
+          "text-blue text-2xl mt-20 font-bold max-w-240 lg:max-w-520 mx-auto text-center"
         }
       >
         Fly Onward: what are the alternatives?
@@ -322,7 +322,7 @@ const Post = () => (
 
         <button
           className={
-            "text-blue bg-gray py-19 rounded-14 text-md font-medium mt-80 w-full lg:width-auto lg:uppercase lg:px-75 mb-20 lg:mb-0"
+            "block text-blue bg-gray py-19 rounded-14 text-md font-medium mt-80 w-full mx-auto lg:w-auto lg:width-auto lg:uppercase lg:px-75 mb-20 lg:mb-0"
           }
         >
           more
