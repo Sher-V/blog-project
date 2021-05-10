@@ -4,7 +4,7 @@ import { blueIcon, whiteIcon } from "./constants";
 const Header = () => (
   <div
     className={
-      "flex justify-between items-center py-25 px-24 max-w-327 lg:max-w-924 mx-auto"
+      "flex justify-between items-center py-25 px-24 max-w-375 lg:max-w-1024 lg:px-50 mx-auto"
     }
   >
     <div className={"flex items-center"}>

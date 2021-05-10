@@ -96,10 +96,10 @@ const Post = () => (
         Fly Onward: what are the alternatives?
       </div>
       <img
-        className={"mt-60 w-full max-w-374 mx-auto lg:max-w-full"}
+        className={"mt-60 w-full max-w-375 mx-auto lg:max-w-full"}
         src={"/images/how-to-big.png"}
       />
-      <div className={"mx-auto px-24 max-w-327 lg:max-w-full lg:px-0"}>
+      <div className={"mx-auto px-24 max-w-375 lg:max-w-full lg:px-0"}>
         <div className={"mt-60 text-blue text-description"}>
           For long-time travelers that needed flight reservation for their visa
           application , there was a very well-known service that used to operate

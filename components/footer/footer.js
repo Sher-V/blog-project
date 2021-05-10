@@ -1,8 +1,8 @@
 import { UiLink } from "..";
 
 const Footer = () => (
-  <div className={"hidden lg:block bg-blue mt-140 pr-113 pb-80"}>
-    <div className={"flex justify-between pt-80 mx-auto lg:w-924"}>
+  <div className={"hidden lg:block bg-blue mt-140 pb-80"}>
+    <div className={"flex justify-between pt-80 mx-auto pl-50 pr-113 lg:max-w-1024"}>
       <div>
         <svg
           width="28"
