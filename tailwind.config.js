@@ -274,6 +274,8 @@ module.exports = {
       screen: "100vh",
     }),
     maxWidth: (theme, { breakpoints }) => ({
+      69: "69px",
+      93: "93px",
       140: "140px",
       188: "188px",
       230: "230px",

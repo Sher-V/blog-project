@@ -26,24 +26,24 @@ const posts = [
 const Main = () => (
   <main className={"mx-auto px-24 max-w-327 lg:max-w-760 lg:px-0"}>
     <div className={"text-blue text-xl"}>BLOG</div>
-    <div className={"mt-20"}>
+    <div className={"mt-20 flex"}>
       <button
         className={
-          "text-blue bg-gray py-11 px-20 rounded-10 text-sm font-medium"
+          "text-blue bg-gray py-11 max-w-69 flex-grow rounded-10 text-sm font-medium"
         }
       >
         VISA
       </button>
       <button
         className={
-          "text-blue bg-gray ml-10 py-11 px-20 rounded-10 text-sm font-medium"
+          "text-blue bg-gray ml-10 py-11 max-w-93 flex-grow rounded-10 text-sm font-medium"
         }
       >
         HOW TO
       </button>
       <button
         className={
-          "text-blue bg-gray ml-10 py-11 px-20 rounded-10 text-sm font-medium"
+          "text-blue bg-gray ml-10 py-11 max-w-93 flex-grow rounded-10 text-sm font-medium"
         }
       >
         WHAT IS
